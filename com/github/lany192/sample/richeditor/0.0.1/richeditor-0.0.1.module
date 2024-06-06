@@ -1,0 +1,320 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.lany192.sample",
+    "module": "richeditor",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "richeditor-0.0.1.aar",
+          "url": "richeditor-0.0.1.aar",
+          "size": 257252,
+          "sha512": "afe37ef40d3897acd53f408efc38a25924fc36978b68772fe69cbdb62d1ed5590e26522f2185ecf098568f79ca3ad77e5439d6d2831956051243387af37d1a5e",
+          "sha256": "9262cac7955190dde0317b8b511639b137fa772ace71a4291456ef44050ee79c",
+          "sha1": "239012c2a725ba10d556b9d6bdfe61a380d05c5b",
+          "md5": "643d8d0144f8e58d76585aa8a449f5ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "router",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "network",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "blackbox",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "view",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "core",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "dialog",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "arch",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "time",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "tablayout",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "html",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "update",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "toolkit",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "video",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.45"
+          }
+        },
+        {
+          "group": "com.github.lany192.app-router",
+          "module": "arouter",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "com.github.getActivity",
+          "module": "Toaster",
+          "version": {
+            "requires": "12.6"
+          }
+        },
+        {
+          "group": "com.geyifeng.immersionbar",
+          "module": "immersionbar",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.tencent.tbs",
+          "module": "tbssdk",
+          "version": {
+            "requires": "44286"
+          }
+        },
+        {
+          "group": "net.sourceforge.htmlcleaner",
+          "module": "htmlcleaner",
+          "version": {
+            "requires": "2.29"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "richeditor-0.0.1.aar",
+          "url": "richeditor-0.0.1.aar",
+          "size": 257252,
+          "sha512": "afe37ef40d3897acd53f408efc38a25924fc36978b68772fe69cbdb62d1ed5590e26522f2185ecf098568f79ca3ad77e5439d6d2831956051243387af37d1a5e",
+          "sha256": "9262cac7955190dde0317b8b511639b137fa772ace71a4291456ef44050ee79c",
+          "sha1": "239012c2a725ba10d556b9d6bdfe61a380d05c5b",
+          "md5": "643d8d0144f8e58d76585aa8a449f5ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "richeditor-0.0.1-sources.jar",
+          "url": "richeditor-0.0.1-sources.jar",
+          "size": 121021,
+          "sha512": "0023e2405fd90bf4ab969926eef319d527e6030927dcb2fe83a2f401648cc71b7fccfc10e2e68ef5955c3a5c3418be83d4e999b02c83f924f69d29f40e993acc",
+          "sha256": "5baaaad0b0d6b82a5c2937f8efc587da629cb881100fac545968e3fcc40fcece",
+          "sha1": "43cb8a88fd695185ae1cc0a9a5c7984a45915bb9",
+          "md5": "a20e3045791e755b969bfbcbfae7d31e"
+        }
+      ]
+    }
+  ]
+}

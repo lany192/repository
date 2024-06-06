@@ -1,0 +1,278 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.lany192.sample",
+    "module": "user",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "user-0.0.1.aar",
+          "url": "user-0.0.1.aar",
+          "size": 157008,
+          "sha512": "ad68856a5a0a310993c3e4c653f8f3f585d121332a15c6ea85d36f1d6ff1e95fe104f6bb9bbe7a36af9f600641c3db1d7c917fe0a802a2ef30541a8030bf1ca2",
+          "sha256": "b0a356c25be825f1751c837456b1ea86f01a90bd948a86cad67429fe4698baae",
+          "sha1": "dd9b3ae8692412a3864f675436dd6f348056be2a",
+          "md5": "0cc0dba100266838bd5a8e3b00e1dcf8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "router",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "network",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "blackbox",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "view",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "core",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "dialog",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "arch",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "time",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "tablayout",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "html",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "update",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "toolkit",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "video",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.45"
+          }
+        },
+        {
+          "group": "com.github.lany192.app-router",
+          "module": "arouter",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.github.getActivity",
+          "module": "Toaster",
+          "version": {
+            "requires": "12.6"
+          }
+        },
+        {
+          "group": "com.geyifeng.immersionbar",
+          "module": "immersionbar",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.tencent.tbs",
+          "module": "tbssdk",
+          "version": {
+            "requires": "44286"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "user-0.0.1.aar",
+          "url": "user-0.0.1.aar",
+          "size": 157008,
+          "sha512": "ad68856a5a0a310993c3e4c653f8f3f585d121332a15c6ea85d36f1d6ff1e95fe104f6bb9bbe7a36af9f600641c3db1d7c917fe0a802a2ef30541a8030bf1ca2",
+          "sha256": "b0a356c25be825f1751c837456b1ea86f01a90bd948a86cad67429fe4698baae",
+          "sha1": "dd9b3ae8692412a3864f675436dd6f348056be2a",
+          "md5": "0cc0dba100266838bd5a8e3b00e1dcf8"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "user-0.0.1-sources.jar",
+          "url": "user-0.0.1-sources.jar",
+          "size": 25575,
+          "sha512": "74fae47e93c33ee83118310bacbcf06cf11720a413f300c13852641f3305283fe106b6270955f7fc5db3b26a15dd792ccb54901f6eec32f6795151fd991421f1",
+          "sha256": "6c690f110b945c157b366d287b543a5d904a3f5d1f8dc26259f7cab4ec6aa517",
+          "sha1": "7d38a2b8933388d13962ed4f262438d2ea51d31b",
+          "md5": "7676c0617af2b6953f5cfb135e59e11a"
+        }
+      ]
+    }
+  ]
+}

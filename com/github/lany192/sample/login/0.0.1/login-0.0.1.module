@@ -1,0 +1,257 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.lany192.sample",
+    "module": "login",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "login-0.0.1.aar",
+          "url": "login-0.0.1.aar",
+          "size": 200943,
+          "sha512": "e959771f291d63f7038b0ff900bfe7e8500068a546178bb8bdece11c88e2d178ed6145a8efab4714436946add3a7487b9acd7d1a1df08f50f097def61149c52d",
+          "sha256": "039f259a13d630d8e26aa1a9d85370f224c9e98ffdf6f3971be4e16ce71b04df",
+          "sha1": "11c5fb95334bade01637453b5c751f6677c01675",
+          "md5": "b9734189a9a7228f172c2a0f13142960"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "router",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "network",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "view",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "core",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "dialog",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "arch",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "time",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "blackbox",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "tablayout",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "html",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "update",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "toolkit",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "video",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.45"
+          }
+        },
+        {
+          "group": "com.github.lany192.app-router",
+          "module": "arouter",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.github.getActivity",
+          "module": "Toaster",
+          "version": {
+            "requires": "12.6"
+          }
+        },
+        {
+          "group": "com.geyifeng.immersionbar",
+          "module": "immersionbar",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "login-0.0.1.aar",
+          "url": "login-0.0.1.aar",
+          "size": 200943,
+          "sha512": "e959771f291d63f7038b0ff900bfe7e8500068a546178bb8bdece11c88e2d178ed6145a8efab4714436946add3a7487b9acd7d1a1df08f50f097def61149c52d",
+          "sha256": "039f259a13d630d8e26aa1a9d85370f224c9e98ffdf6f3971be4e16ce71b04df",
+          "sha1": "11c5fb95334bade01637453b5c751f6677c01675",
+          "md5": "b9734189a9a7228f172c2a0f13142960"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "login-0.0.1-sources.jar",
+          "url": "login-0.0.1-sources.jar",
+          "size": 5049,
+          "sha512": "863b4e348ab81b3fd8762269eed6350ef540635ecfa151764b962509d228e6df562d3719d7e0f8d189145ea6b33d9635b758f8953146bd2f04c4690fcc3ee9a6",
+          "sha256": "690c652bac79266bd13f7d7ba4ac7dd792a8c67ce69686a5810606833f1571e8",
+          "sha1": "7754e0ddf4b9623f220c88853b25795ee104fda2",
+          "md5": "2e9a8f70567ff50b29b48f998f84c4f7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.lany192.sample",
+    "module": "browser",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "browser-0.0.1.aar",
+          "url": "browser-0.0.1.aar",
+          "size": 126459,
+          "sha512": "0439ac31ece2b78b119f2919bc2606455dbbb982e3d19c236f0ce63fcdb916ac7815961b3f7206ef48da4f5b7e1461e00ae68e88868cc07ba10192f6055a5619",
+          "sha256": "095d615360597f957bbd5bbd6c36748baabf37a16dae1e7feb715ad428934521",
+          "sha1": "130835ade26f09ae39b3fa627489a4348ee21623",
+          "md5": "37a300de84174bea1cd7bf2cf9e6d0b4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "blackbox",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "router",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "sample.common",
+          "module": "network",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "view",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "core",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "dialog",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "arch",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "time",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "tablayout",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "html",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "update",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "toolkit",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.github.lany192.box",
+          "module": "video",
+          "version": {
+            "requires": "4.6.5"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "hilt-android",
+          "version": {
+            "requires": "2.45"
+          }
+        },
+        {
+          "group": "com.github.lany192.app-router",
+          "module": "arouter",
+          "version": {
+            "requires": "2.0.8"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.geyifeng.immersionbar",
+          "module": "immersionbar",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "com.tencent.tbs",
+          "module": "tbssdk",
+          "version": {
+            "requires": "44286"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "browser-0.0.1.aar",
+          "url": "browser-0.0.1.aar",
+          "size": 126459,
+          "sha512": "0439ac31ece2b78b119f2919bc2606455dbbb982e3d19c236f0ce63fcdb916ac7815961b3f7206ef48da4f5b7e1461e00ae68e88868cc07ba10192f6055a5619",
+          "sha256": "095d615360597f957bbd5bbd6c36748baabf37a16dae1e7feb715ad428934521",
+          "sha1": "130835ade26f09ae39b3fa627489a4348ee21623",
+          "md5": "37a300de84174bea1cd7bf2cf9e6d0b4"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "browser-0.0.1-sources.jar",
+          "url": "browser-0.0.1-sources.jar",
+          "size": 4589,
+          "sha512": "8bfdf261edb566e7ddc9b7745dfbf9ab8e01937b058f397d8c96b97811fa0136d2e922f03d3409f99ecee9f2c83b1758ff67e230f60d2fe9b958636c920b46d3",
+          "sha256": "f5bc0d0e287d58bb461acfe7ff89e74647a047ad1866ce775b8721ab26c9d506",
+          "sha1": "f6ef706a679d265d3de3885b95c0c0aefb35b6e5",
+          "md5": "c426ceab095b8a653dc6d06bb6481bd1"
+        }
+      ]
+    }
+  ]
+}
